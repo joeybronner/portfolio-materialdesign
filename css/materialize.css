@@ -2018,7 +2018,7 @@ ul {
 .divider {
   height: 1px;
   overflow: hidden;
-  background-color: #e0e0e0; }
+  }
 
 blockquote {
   margin: 20px 0;
@@ -6753,7 +6753,7 @@ ul.table-of-contents a {
 
 ul.side-nav {
   position: fixed;
-  width: 240px;
+  width: 350px;
   left: -105%;
   top: 0;
   margin: 0;
@@ -6771,6 +6771,7 @@ ul.side-nav {
     margin: 0; }
   ul.side-nav li {
     float: none;
+    padding: 0 15px; }
     padding: 0 15px; }
     ul.side-nav li:hover, ul.side-nav li.active {
       background-color: #ddd; }

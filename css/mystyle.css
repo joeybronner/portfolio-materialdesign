@@ -1,0 +1,55 @@
+header{
+padding-left: 240px;
+color:white;
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Thin.ttf");
+  font-weight: 200;
+}
+main, footer {
+    padding-left: 350px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+  
+  .page-title {
+  
+  height:200px;
+  
+  }
+  
+  .top-nav {
+  height:100px;
+  }
+  
+#name
+{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-weight:bold;
+    left:150px;
+    top:320px;
+	font-size: 2rem;
+	font-family: "Roboto";
+	src: url("../font/roboto/Roboto-Thin.ttf");
+	font-weight: 400;
+}
+
+#poste
+{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-weight:bold;
+    left:150px;
+    top:350px;
+	font-size: 2rem;
+	font-family: "Roboto";
+	src: url("../font/roboto/Roboto-Thin.ttf");
+	font-weight: 200;
+}
+        

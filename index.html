@@ -1,48 +1,91 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-
-    </head>
-
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <title>Joey Bronner</title>
       <!-- CSS -->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	  <link type="text/css" rel="stylesheet" href="css/mystyle.css"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 </head>
-<body>
+
+<body style="background-color:#ECECEC;">
 <!-- Navbar header -->
+<header>
+		<nav class="top-nav blue">
+			<div class="container">
+				<div class="nav-wrapper"><a class="page-title"><h3>Curriculum Vitae</h3></a></div>
+			</div>
+		</nav>
+		
+  <ul id="nav-mobile" class="side-nav fixed blue">
+	<img class="responsive-img" src="img/jbronner.jpg"></img>
+	<p id="name">
+        Joey Bronner
+    </p>
+	<p id="poste">
+        Developer
+    </p>
+	<div class="row">
+		<div class="col s1 m4 l2">
+			<p><i class="mdi-communication-messenger prefix"></i></p>
+		</div>
+		<div class="col s2 m4 l10">
+			<h5>Mail</h5>
+			<p>joeybronner@gmail.com</p>
+			<div class="divider blue lighten-2"></div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col s1 m4 l2">
+			<p><i class="mdi-communication-phone prefix"></i></p>
+		</div>
+		<div class="col s2 m4 l10">
+			<h5>Phone</h5>
+			<p>+336 24 69 81 86</p>
+			<div class="divider blue lighten-2"></div>
+		</div>
+	</div>
+	
+  </ul>
+    </header>
+
+		<!--
+-->
+        
+		
+<!-- Header prez
 <div class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper green lighten-1">
-        <a href="#!" class="brand-logo">&nbsp;<i class="mdi-action-account-circle"></i>&nbsp;JOEY BRONNER</a>
+      <div class="nav-wrapper blue lighten-1">
+        <a href="#!" class="brand-logo">&nbsp;<i class="mdi-social-public"></i>&nbsp;JOEY BRONNER</a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Works</a></li>
-		  <li><a href="components.html"><i class="mdi-navigation-more-vert"></i></a></li>
-		  <li><a href="components.html">Works</a></li>
+		  <li><a href="#"><i class="mdi-social-plus-one"></i></a></li>
+		  <li><a href="#"><i class="mdi-content-content-copy"></i></a></li>
+		  <li><a href="#"><i class="mdi-navigation-more-vert"></i></a></li>
         </ul>
       </div>
     </nav>
 </div>
-
-<!-- Header prez -->
-  <div class="center green lighten-4 z-depth-1" style="padding:4em;">
-		<img src="http://labs.qnimate.com/portfolio-materialize/images/profile.png" width="128" height="128">
-        <h3 class="lighten-5 green-text">JOEY BRONNER</h3>
-        <h5 class="lighten-5 green-text">developer.</h5>
+-->
+<main>
+<!--
+<div class="center blue lighten-4 z-depth-1" style="padding:4em;">
+		<img src="img/joeybronner.png" width="214px" height="168px">
+        <h3 class="lighten-5 blue-text">JOEY BRONNER</h3>
+        <h5 class="lighten-5 blue-text">developer.</h5>
   </div>
-  
-   <div class="container about">
+  -->
+   <div class="container">
         <h5>about me</h5>
         <h6>let me introduce my self</h6>
         <hr>
         <div class="row">
           <div class="col s12 m4 l4">
             <h6>Story</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div class="col s12 m4 l4">
@@ -84,6 +127,52 @@
             </ul>
           </div>
         </div>
+		
+		<h5>profesional experience</h5>
+        <h6>company were I worked</h6>
+		<hr>
+		
+		<ul class="collection">
+			<li class="collection-item avatar">
+			  <img src="img/sap.png" class="circle">
+			  <span class="title"><b>SAP</b></span>
+			  <p>Intern<br>
+				 <i>Paris, France</i>
+			  </p>
+			  <a href="#!" class="secondary-content">2014-2015</i></a>
+			</li>
+			<li class="collection-item avatar">
+			  <img src="img/alstom.jpg" class="circle">
+			  <span class="title"><b>Alstom Transport</b></span>
+			  <p>Intern<br>
+				 <i>Reichshoffen, France</i>
+			  </p>
+			  <a href="#!" class="secondary-content">2013-2014</i></a>
+			</li>
+			<li class="collection-item avatar">
+			  <img src="img/fm2i.png" class="circle">
+			  <span class="title"><b>FM2i</b></span>
+			  <p>Intern<br>
+				 <i>Phalsbourg, France</i>
+			  </p>
+			  <a href="#!" class="secondary-content">2010-2013</i></a>
+			</li>
+		  </ul>
+		  
+<ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="mdi-image-filter-drama"></i>SAP</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="mdi-maps-place"></i>FM2i</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="mdi-social-whatshot"></i>Alstom</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+  </ul>
 		
         <h5>my works</h5>
         <h6>my latest projects</h6>
@@ -153,7 +242,7 @@
 	</div>
   </form>
 </div>
-		
+		   <a class="btn" onclick="toast('I am a toast', 4000)">Send!</a>
 		
       </div>
  
@@ -171,7 +260,7 @@
     </ul>
   </div>
 		
-	 
+</main>	 
         <footer>
           <div class="footer-copyright">
             <div class="container">
