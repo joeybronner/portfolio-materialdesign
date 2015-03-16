@@ -4783,16 +4783,16 @@ span.badge {
   padding: 0 1.5rem;
   margin: 0 auto;
   max-width: 1280px;
-  width: 90%; }
+  width: 95%; }
 
 @media only screen and (min-width : 601px) {
   .container {
-    width: 85%; }
+    width: 95%; }
  }
 
 @media only screen and (min-width : 993px) {
   .container {
-    width: 70%; }
+    width: 95%; }
  }
 
 .container .row {

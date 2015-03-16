@@ -23,6 +23,7 @@ main, footer {
   
   .top-nav {
   height:100px;
+  padding-left:150px;
   }
   
 #name
@@ -46,8 +47,8 @@ main, footer {
     color:white;
     font-weight:bold;
     left:150px;
-    top:350px;
-	font-size: 2rem;
+    top:360px;
+	font-size: 1.5rem;
 	font-family: "Roboto";
 	src: url("../font/roboto/Roboto-Thin.ttf");
 	font-weight: 200;
